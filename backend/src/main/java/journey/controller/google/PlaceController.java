@@ -12,7 +12,7 @@ public class PlaceController {
     @Autowired
     private final WebClient webClient;
 
-    // private final String apiKey = "AIzaSyBHeP7BNMyF_Iu08U0CcevrQy8oGtPV8N0";
+    // private final String apiKey = "google api";
 
     public PlaceController(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder.baseUrl("https://maps.googleapis.com/maps/api/place/details/json").build();
