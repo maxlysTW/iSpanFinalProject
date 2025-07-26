@@ -972,7 +972,7 @@
       mapSearchInstance?.show();
     }
   }
-  const apiKey = 'AIzaSyBHeP7BNMyF_Iu08U0CcevrQy8oGtPV8N0' // 🔁 換成你的金鑰
+  // const apiKey = 'AIzaSyBHeP7BNMyF_Iu08U0CcevrQy8oGtPV8N0' // 🔁 換成你的金鑰
   const fetchPlaceDetails = async (placeId) => {
     const response = await axios.get('/api/place/details', {
       params: { placeId, language: 'ja' }
